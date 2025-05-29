@@ -43,3 +43,15 @@ python app.py
 cd ../frontend
 npm install
 npm run dev
+📂 Project Structure
+
+DataShield/
+├── backend/           # Python ML APIs and logic
+├── frontend/          # React TypeScript app
+├── README.md
+└── .gitignore
+
+🧑‍💻 Author
+Made with ❤️ by Ganesh Sahu
+
+Feel free to fork, open issues, suggest improvements, or give a ⭐ if you found this project helpful!
