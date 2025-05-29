@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .animate-fade-in {
+        animation: fadeIn 0.5s ease-out;
+    }
+    
+    .animate-fade-in-down {
+        animation: fadeInDown 0.6s ease-out;
+    }
+    
+    .animate-fade-in-up {
+        animation: fadeInUp 0.6s ease-out;
+    }
+    
+    .animate-slide-in-right {
+        animation: slideInRight 0.6s ease-out;
+    }
+    
+    .animate-bounce-in {
+        animation: bounceIn 0.6s ease-out;
+    }
+    
+    .animate-dropdown {
+        animation: dropdown 0.3s ease-out;
+    }
+    
+    .animation-delay-100 {
+        animation-delay: 100ms;
+    }
+    
+    .animation-delay-200 {
+        animation-delay: 200ms;
+    }
+    
+    .animation-delay-300 {
+        animation-delay: 300ms;
+    }
+    
+    .animation-delay-400 {
+        animation-delay: 400ms;
+    }
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes fadeInDown {
+    0% { opacity: 0; transform: translateY(-20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideInRight {
+    0% { opacity: 0; transform: translateX(30px); }
+    100% { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes bounceIn {
+    0% { opacity: 0; transform: scale(0.9); }
+    50% { opacity: 1; transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+@keyframes dropdown {
+    0% { opacity: 0; transform: translateY(-10px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
