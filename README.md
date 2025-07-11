@@ -20,10 +20,10 @@ DataShield is a security-focused project designed to detect phishing attacks and
 ## 📦 Tech Stack
 
 - **Frontend:** React + TypeScript + Vite
-- **Backend:** Python (Flask / FastAPI)
-- **Database:** MySQL / SQLite
-- **ML Model:** Scikit-learn / TensorFlow
-- **APIs:** WHOIS, DomainAge, custom ML endpoints
+- **Backend:** Python (FastAPI)
+- **Database:** MySQL 
+- **ML Model:** Scikit-learn 
+- **APIs:** WHOIS, DomainAge
 
 ---
 
